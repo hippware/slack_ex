@@ -49,9 +49,12 @@ defmodule Slack.Mixfile do
   end
 
   defp package do
-    [name: :slack_ex,
-     licenses: ["MIT"],
-     maintainers: ["Jonathan Clem <jonathan@jclem.net>"],
-     links: %{"GitHub" => @github_url}]
+    [
+      name: :slack_ex,
+      licenses: ["MIT"],
+      maintainers: ["Jonathan Clem <jonathan@jclem.net>"],
+      links: %{"GitHub" => @github_url},
+      organization: "hippware"
+    ]
   end
 end
